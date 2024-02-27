@@ -20,16 +20,16 @@ const gera_aulas = function() {
                 <h1>Aulas 5º Período</h1>
                 <h2>Aulas WEB </h2>
                 <ul id="aulas-web">
-                ${filesWeb.filter((file)=> file.includes('.html')).map((file)=> `<li><a href="/web/aulas/${file}">${file.replace('.html','')}</a></li>` )}
+                ${filesWeb.filter((file)=> file.includes('.html')).map((file)=> `<li><a href="/web/aulas/${file}">${file.replace('.html','')}</a></li></br>` )}
                 </ul>
                 <h2>Aulas Desktop</h2>
                 <ul id="aulas-desktop">
-                    ${filesDesktop.filter((file)=> file.includes('.html')).map((file)=> `<li><a href="/desktop/aulas/${file}">${file.replace('.html','')}</a></li>` )}
+                    ${filesDesktop.filter((file)=> file.includes('.html')).map((file)=> `<li><a href="/desktop/aulas/${file}">${file.replace('.html','')}</a></li></br>` )}
                 </ul>
             </section>
         </body>
         </html>`
-        fs.writeFileSync('./index.html', template,)
+        fs.writeFileSync('./index.html', template)
     });
     });
 
