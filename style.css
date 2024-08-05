@@ -26,6 +26,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	min-width: 100%;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
 ol, ul {
 	list-style: none;
@@ -48,7 +54,6 @@ section {
     box-sizing: border-box;
     width: 100%;
     padding: 24px;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,6 +63,7 @@ section {
 h1 {
     margin-bottom: 20px;
 		font-size: 32px;
+		text-align:  center;
 }
 li {
     padding: 10px;
