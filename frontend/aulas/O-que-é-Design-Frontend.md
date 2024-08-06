@@ -123,3 +123,11 @@ footer: 'Allan da Silva'
 
 ---
 
+### Links
+
+- https://developer.mozilla.org/pt-BR/
+- https://codepen.io/
+- https://www.figma.com/
+- https://github.com/
+---
+
