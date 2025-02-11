@@ -103,6 +103,10 @@ document.getElementById('fetch-data').addEventListener('click', () => {
 });
 
 ```
+
+---
+![bg ](./process.gif)
+
 ---
 ### 3. Preload Scripts (Scripts de Pré-carregamento)
 
