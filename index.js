@@ -64,7 +64,7 @@ const sections = [
   { titulo: 'Desenvolvimento Para Internet(5º)', diretorio: './web/aulas' },
   { titulo: 'Desenvolvimento Desktop (5°)', diretorio: './desktop/aulas' },
   { titulo: 'Introdução à Análise e Projeto de Software (3°)', diretorio: './analise-projeto/aulas' },
-  // { titulo: 'Aulas Testes (2°)', diretorio: './teste1/aulas' },
+  { titulo: 'INOVAÇÃO, TECNOLOGIA E FUTURISMO (2°)', diretorio: './inovacao-futurismo/aulas' },
 ];
 
 gerarTemplateHTML(sections);
