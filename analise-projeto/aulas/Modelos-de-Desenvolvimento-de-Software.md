@@ -22,7 +22,7 @@ footer: "Modelos de Desenvolvimento de Software"
 - Empresas como IBM e Boeing utilizaram esse modelo.
 
 ---
-
+## Modelo Cascata
 - **Etapas**: Requisitos → Design → Implementação → Testes → Implantação → Manutenção.
 - **Princípios**:
   - Processo linear e sequencial.
@@ -31,6 +31,7 @@ footer: "Modelos de Desenvolvimento de Software"
 - **Vantagens**: Simplicidade e documentação detalhada.
 - **Desvantagens**: Dificuldade em mudanças e longa espera para entrega.
  --- 
+ ## Modelo Cascata
 - **Ferramentas de Gestão**:
   -  [Microsoft Project](https://www.microsoft.com/pt-br/microsoft-365/project)
   - [Rational Unified Process (RUP)](https://www.ibm.com/cloud/architecture/architectures/software-engineering/rational-unified-process)
@@ -43,7 +44,7 @@ footer: "Modelos de Desenvolvimento de Software"
 - Projetado para mitigar riscos em grandes sistemas.
 - Utilizado por empresas como IBM e organizações governamentais.
 ---
-
+## Modelo Espiral
 - **Ciclos**: Planejamento → Análise de Riscos → Desenvolvimento → Avaliação.
 - **Princípios**:
   - Identificação e mitigação de riscos em cada iteração.
@@ -53,7 +54,7 @@ footer: "Modelos de Desenvolvimento de Software"
 - **Desvantagens**: Complexidade e alto custo.
 
 ---
-
+## Modelo Espiral
 - **Ferramentas de Gestão**:
   - [Enterprise Architect](https://sparxsystems.com/)
   - [IBM Rational](https://www.ibm.com/products/rational-software)
@@ -67,6 +68,7 @@ footer: "Modelos de Desenvolvimento de Software"
 - Criado por Jeff Sutherland e Ken Schwaber em 1995.
 - Popularizado no setor de tecnologia e amplamente utilizado pelo Google, Microsoft e Spotify.
 ---
+## Scrum
 - **Baseado em ciclos curtos chamados Sprints.**
 - **Papéis**: Product Owner, Scrum Master, Time de Desenvolvimento.
 - **Artefatos**: Backlog, Sprint Backlog, Incremento.
@@ -76,7 +78,7 @@ footer: "Modelos de Desenvolvimento de Software"
   - Entregas incrementais de software funcional.
   - Colaboração e comunicação contínua entre os membros da equipe.
 ---
-
+## Scrum
 - **Ferramentas de Gestão**:
   - [Jira](https://www.atlassian.com/software/jira)
   - [Trello](https://trello.com/)
@@ -89,7 +91,7 @@ footer: "Modelos de Desenvolvimento de Software"
 - Popularizado como metodologia ágil por David J. Anderson em 2007.
 - Empresas como Amazon e Netflix utilizam Kanban.
 ---
-
+## Kanban
 - **Fluxo contínuo baseado em um quadro visual.**
 - **Foca na limitação do trabalho em progresso (WIP).**
 - **Princípios**:
@@ -97,6 +99,7 @@ footer: "Modelos de Desenvolvimento de Software"
   - Limitar o número de tarefas em progresso.
   - Melhorias contínuas no processo.
 ---
+## Kanban
 - **Ferramentas de Gestão**:
   - [Trello](https://trello.com/)
   - [Kanbanize](https://kanbanize.com/)
@@ -108,6 +111,7 @@ footer: "Modelos de Desenvolvimento de Software"
 - Criado por Kent Beck em 1996.
 - Empresas como Chrysler e startups utilizam XP para melhorar qualidade do código.
 ---
+## Extreme Programming (XP)
 - **Práticas**: Desenvolvimento orientado a testes (TDD), programação em par, integração contínua.
 - **Foca na qualidade do código e feedback contínuo.**
 - **Princípios**:
@@ -115,6 +119,7 @@ footer: "Modelos de Desenvolvimento de Software"
   - Simplicidade no código e nas soluções.
   - Feedback rápido e desenvolvimento incremental.
 ---
+## Extreme Programming (XP)
 - **Ferramentas de Gestão**:
   - [Jira](https://www.atlassian.com/software/jira)
   - [Trello](https://trello.com/)
