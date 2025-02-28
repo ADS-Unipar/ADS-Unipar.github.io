@@ -139,3 +139,25 @@ ERP integra diferentes processos empresariais em um único sistema:
 # Conclusão
 Cada tipo de Sistema de Informação tem um papel fundamental dentro das organizações. A escolha entre soluções comerciais e gratuitas depende da necessidade e dos recursos disponíveis.
 
+---
+
+# Trabalho (Apresentação)
+
+**Problema para Levantamento de Compra de Software e Hardware para a Empresa XYZ**
+
+A empresa XYZ está em processo de expansão de suas operações e precisa adquirir novos recursos de tecnologia para garantir o aumento de sua produtividade, segurança e escalabilidade. Com isso, é necessário realizar um levantamento de compras de software e hardware adequados às necessidades da organização.
+
+---
+
+1. Necessidades de Software:
+A empresa precisa de sistemas operacionais, aplicativos de produtividade (como pacotes de Office), ferramentas de colaboração (como videoconferência e gestão de projetos), além de soluções de segurança cibernética (antivírus, firewall, etc.).
+Existem requisitos específicos para softwares de gestão empresarial (ERP), gestão de relacionamento com clientes (CRM), automação de marketing, entre outros.
+A compatibilidade entre os novos sistemas e os softwares existentes deve ser considerada para evitar problemas de integração.
+
+---
+
+2. Necessidades de Hardware:
+A empresa necessita de novos computadores (desktops e laptops) que atendam a uma demanda crescente de trabalho remoto e presencial.
+Será preciso adquirir servidores para suporte de dados internos e dispositivos de armazenamento em nuvem ou servidores locais para garantir a segurança e a integridade das informações.
+Equipamentos de rede (roteadores, switches, etc.) e periféricos (impressoras, scanners) também são necessários para garantir a fluidez nas operações diárias.
+
