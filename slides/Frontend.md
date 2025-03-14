@@ -18,6 +18,12 @@ backgroundColor: #ffffff
 * Desenvolvedor na Hostgator
 
 ---
+
+# E filho do Burnes
+
+![bg left](burnes.jpg)
+
+---
 ![left 90% bg](arpanet.webp)
 
 ##  A Criação da Internet (1960-1980)
