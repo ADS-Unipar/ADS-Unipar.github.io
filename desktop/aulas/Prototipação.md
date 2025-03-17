@@ -50,7 +50,16 @@ A prototipação de telas é o processo de criar representações visuais intera
 
 ---
 
-# Vamos para prática
+### Vamos para prática
 
 - Faça o cadastro no https://www.figma.com/
-- Acesse https://www.figma.com/file/4LkyyLQmFmgLXuA2Sz7dd4/todo-list?type=design&node-id=1003%3A708&mode=design&t=tJBrSfiLyV9LE1nR-1
+
+- crie uma lista de tarefas com os seguintes requisitos 
+  - Formulário para acionar a tarefa
+  - Lista de tarefas com
+    - titulo
+    - botoes de ação editar, concluir e excluir
+    - modal de confirmação para excluir e para concluir
+    - diferenciar tarefa a fazer de tarefas concluídas
+
+    envie o links do figma no [forms](https://docs.google.com/forms/d/e/1FAIpQLSdPPnVs0c0tym9mNXjXPzVqRCghGEiGtAI08dAipGjBzts8tg/viewform?usp=sharing)
