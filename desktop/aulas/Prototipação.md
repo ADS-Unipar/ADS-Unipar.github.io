@@ -42,11 +42,11 @@ A prototipação de telas é o processo de criar representações visuais intera
 
 #### Ferramentas de Prototipação:
 
-**Ferramentas de Baixa Fidelidade:** Balsamiq, Sketch, Adobe XD (para wireframes).
+**Ferramentas de Baixa Fidelidade:** Figma, Balsamiq, Sketch, Adobe XD (para wireframes).
 
 **Ferramentas de Alta Fidelidade:** Figma, Adobe XD, Sketch, InVision Studio.
 
-**Ferramentas de Prototipagem Interativa:** InVision, Axure RP, Proto.io.
+**Ferramentas de Prototipagem Interativa:** Figma, InVision, Axure RP, Proto.io.
 
 ---
 
