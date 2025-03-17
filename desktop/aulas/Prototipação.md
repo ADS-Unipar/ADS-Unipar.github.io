@@ -62,4 +62,4 @@ A prototipação de telas é o processo de criar representações visuais intera
     - modal de confirmação para excluir e para concluir
     - diferenciar tarefa a fazer de tarefas concluídas
 
-    envie o links do figma no [forms](https://docs.google.com/forms/d/e/1FAIpQLSdPPnVs0c0tym9mNXjXPzVqRCghGEiGtAI08dAipGjBzts8tg/viewform?usp=sharing)
+    envie o links do figma no [forms](https://docs.google.com/forms/d/e/1FAIpQLSdPPnVs0c0tym9mNXjXPzVqRCghGEiGtAI08dAipGjBzts8tg/viewform?usp=dialog)
