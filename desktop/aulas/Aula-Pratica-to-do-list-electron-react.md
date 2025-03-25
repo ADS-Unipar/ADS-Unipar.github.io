@@ -210,3 +210,5 @@ Agora temos um **To-Do List** funcional, utilizando **Electron Vite, React e SQL
 ---
 # Podemos melhorar isso!
 Vamos melhorar colocando css com https://tailwindcss.com/
+
+- Conteúdo da aula  https://github.com/ADS-Unipar/electron-sqlite-react-tasks
