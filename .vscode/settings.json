@@ -1,3 +1,4 @@
 {
-  "circleci.persistedProjectSelection": []
+  "circleci.persistedProjectSelection": [],
+  "livePreview.defaultPreviewPath": "/index.html"
 }
