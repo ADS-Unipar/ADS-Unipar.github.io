@@ -1,14 +1,15 @@
 ---
 marp: true
+class: invert
 ---
 
-# 🎓 Aula: Introdução ao Design Thinking
+# Introdução ao Design Thinking
 
-## 🎯 Objetivos da Aula
+<!-- ## 🎯 Objetivos da Aula
 - Compreender o conceito e a origem do Design Thinking.
 - Conhecer as etapas do processo de Design Thinking.
 - Aplicar a abordagem para resolver problemas reais de forma criativa e centrada no usuário.
-- Estimular o pensamento colaborativo e a empatia na resolução de desafios.
+- Estimular o pensamento colaborativo e a empatia na resolução de desafios. -->
 
 ---
 
@@ -35,11 +36,11 @@ Design Thinking é uma abordagem para a **resolução de problemas complexos**, 
 2. **Definição (Definir o problema)**  
    Sintetizar as descobertas da empatia para definir o desafio real.  
    Exemplo: "Como podemos melhorar a experiência de pacientes em clínicas?"
+---
 
 3. **Ideação**  
    Gerar o maior número possível de ideias sem julgamentos.  
    Ferramentas: brainstorming, SCAMPER, mapa mental.
----
 
 4. **Prototipagem**  
    Criar versões simples e rápidas da solução para testar.  
@@ -51,20 +52,7 @@ Design Thinking é uma abordagem para a **resolução de problemas complexos**, 
 
 ---
 
-# 💡 Exemplo Prático
-
-**Problema**: Longas esperas em filas de farmácias.
-
-- Empatia: entrevistas com idosos e atendentes.
-- Definição: "Como podemos reduzir a ansiedade durante a espera na fila?"
-- Ideação: senhas inteligentes, entretenimento no local, aplicativo com estimativa de tempo.
-- Prototipagem: maquete de um painel com previsão de atendimento.
-- Teste: apresentar o protótipo e observar reações de usuários reais.
-
----
-
 # 🧩 Ferramentas Comuns no Design Thinking
-
 
 ---
 
@@ -74,6 +62,7 @@ O **Mapa de Empatia** é uma ferramenta visual que ajuda a entender o usuário, 
 
 ---
 
+## 1. Mapa de Empatia
 - **O que o usuário pensa e sente?**: Quais são suas preocupações, medos e aspirações?
 - **O que o usuário ouve?**: Quem influencia as decisões do usuário (amigos, familiares, mídia)?
 - **O que o usuário vê?**: Como o ambiente e o contexto influenciam o comportamento?
@@ -141,11 +130,8 @@ Os **Storyboards** são uma representação visual das ideias ou do fluxo de um 
 Os storyboards podem ser feitos de forma simples, utilizando desenhos ou imagens, para testar a usabilidade e a aceitação da solução proposta.
 
 
-
 ---
-
-
-# 🛠️ Problema: Notificação de Manutenções e Revisões Programadas
+## 🛠️ Problema: Notificação de Manutenções e Revisões Programadas
 Contexto:
 
 Uma empresa de serviços (como uma concessionária de veículos, empresa de telecomunicações ou fornecedor de equipamentos industriais) precisa manter seus clientes informados sobre manutenções ou revisões programadas de seus produtos ou serviços. Essas manutenções são essenciais para garantir o bom funcionamento, segurança e satisfação do cliente, mas muitas vezes os clientes não são informados de forma eficaz, o que leva a falhas, insatisfações e perdas financeiras.
