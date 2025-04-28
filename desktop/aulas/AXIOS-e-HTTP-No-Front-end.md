@@ -194,8 +194,9 @@ json-server --watch db.json --port 3001
 
 - Utilize `POST`, `GET`, `PUT/PATCH` e `DELETE` via Axios.
 - Crie componentes separados para melhor organização: ex. `Form`, `List`, `Item`.
-
 ---
+
+- EX: de DB https://gist.github.com/oAllanWeb/f4c78e500e9af1b21b8eafad9afca7dc
 
 # 🚀 Bora construir seu primeiro CRUD com React + Axios!
 
