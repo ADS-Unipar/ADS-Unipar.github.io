@@ -44,6 +44,7 @@ theme: default
 * **Aprendizado Validado na Ótica de Ries**
     * Aprender construindo um MVP, medindo seu desempenho e aprendendo com os resultados.
     * A importância de experimentos e testes para validar hipóteses de negócios.
+---
 * **Experimentação Rigorosa**
     * A necessidade de um processo científico para validar cada elemento da visão da startup.
     * Testes A/B e outras técnicas para medir o comportamento do cliente.
@@ -78,22 +79,6 @@ theme: default
     * O conceito de "empresa enxuta" (lean enterprise).
     * Como os princípios da Lean Startup podem ser aplicados em organizações estabelecidas para promover a inovação e a agilidade.
 
----
-
-## Metodologia
-
-* Aulas expositivas com base nos conceitos de Eric Ries.
-* Discussões e análise de exemplos do livro "The Lean Startup".
-* Exercícios práticos para aplicar os princípios em projetos hipotéticos ou reais.
-* Recursos adicionais: artigos, vídeos e entrevistas com Eric Ries.
-
----
-
-## Avaliação
-
-* Participação nas discussões e atividades práticas.
-* Desenvolvimento de um projeto que demonstre a aplicação dos princípios da Lean Startup.
-* Apresentação e defesa do projeto final.
 
 ---
 
