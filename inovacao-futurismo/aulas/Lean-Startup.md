@@ -8,14 +8,14 @@ theme: default
 
 ---
 
-## Módulo 1: Introdução à Lean Startup e a Visão de Eric Ries
-
 * **O que é Lean Startup?**
     * Definição de Eric Ries: Organização dedicada a criar algo novo em condições de extrema incerteza.
     * Ênfase na validação e no aprendizado.
+---
 * **A Crítica ao Modelo Tradicional**
     * Por que os métodos tradicionais falham no contexto de startups?
     * Foco excessivo em planejamento e execução, em vez de descoberta.
+
 ---
 
 * **Os 5 Princípios da Lean Startup (Ries)**
@@ -32,6 +32,7 @@ theme: default
 * **O Motor de Crescimento**
     * Como as startups crescem: mecanismos de tração (viral, pago, pegajoso).
     * A importância de identificar e otimizar o motor de crescimento correto.
+---
 * **Produto Mínimo Viável (MVP) Segundo Ries**
     * Definição: Versão do produto que permite coletar a máxima quantidade de aprendizado validado com o mínimo de esforço.
     * Não é o produto com o mínimo de funcionalidades, mas sim o experimento mais rápido para testar uma hipótese.
@@ -42,11 +43,10 @@ theme: default
 ## Módulo 3: Validação e Experimentação Segundo Ries
 
 * **Aprendizado Validado na Ótica de Ries**
-    * Aprender construindo um MVP, medindo seu desempenho e aprendendo com os resultados.
+    * O processo de aprender construindo um MVP, medindo como os clientes se comportam em relação a ele e aprendendo com os resultados.
     * A importância de experimentos e testes para validar hipóteses de negócios.
----
 * **Experimentação Rigorosa**
-    * A necessidade de um processo científico para validar cada elemento da visão da startup.
+    * A necessidade de um processo científico para testar cada elemento da visão da startup.
     * Testes A/B e outras técnicas para medir o comportamento do cliente.
 * **Métricas Acionáveis e Métricas de Vaidade**
     * Foco em métricas que levam a decisões e ações.
@@ -57,9 +57,8 @@ theme: default
 ## Módulo 4: Pivotar ou Perseverar: A Decisão Crucial
 
 * **O Conceito de Pivot Segundo Ries**
-    * Mudança de estratégia para testar uma nova hipótese fundamental sobre o produto, modelo de negócios ou motor de crescimento.
+    * Pivotar é mudar de estratégia para testar uma nova hipótese fundamental sobre o produto, modelo de negócios ou motor de crescimento.
     * Não é um fracasso, mas sim um aprendizado que leva a uma nova direção.
-
 ---
 
 * **Tipos de Pivot**
@@ -79,6 +78,7 @@ theme: default
     * O conceito de "empresa enxuta" (lean enterprise).
     * Como os princípios da Lean Startup podem ser aplicados em organizações estabelecidas para promover a inovação e a agilidade.
 
+---
 
 ---
 
