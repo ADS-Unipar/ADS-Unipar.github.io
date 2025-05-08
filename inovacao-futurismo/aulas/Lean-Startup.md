@@ -3,10 +3,8 @@ marp: true
 theme: default
 ---
 
-# Aula: Desmistificando a Lean Startup (Segundo Eric Ries)
+# Lean Startup (Segundo Eric Ries)
 
-## Objetivo
-Capacitar os participantes a compreender e aplicar os princípios da Lean Startup, conforme definidos por Eric Ries, para desenvolver negócios e produtos de forma eficiente e com menor risco.
 
 ---
 
