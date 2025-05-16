@@ -179,17 +179,6 @@ Gerenciar relacionamentos com clientes e aumentar vendas.
 
 ---
 
-# Tarefa Pós-Aula
-
-📌 **Desafio:**
-1. Escolha uma empresa real ou fictícia  
-2. Descreva seu porte, setor e desafios  
-3. Sugira um conjunto de sistemas gerenciais e justifique
-
----
-
 # Obrigado!
 
-📞 Dúvidas?  
-📧 Entre em contato ou envie suas respostas da atividade.
 
