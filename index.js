@@ -9,9 +9,9 @@ const gerarListaDeArquivos = async (diretorio) => {
       .map((file) => {
         const nomeArquivo = file.replace('.html', '').split('-').join(' ');
         const url = path.join(diretorio, file);
-        return `<li><a href="${url}">${nomeArquivo}</a></li>`;
+        return `<li class="mb-2"><a class="text-blue-600 hover:underline" href="${url}">${nomeArquivo}</a></li>`;
       })
-      .join('</br>');
+      .join('');
   } catch (error) {
     console.error(`Erro ao ler o diretório ${diretorio}:`, error);
     return '';
@@ -21,9 +21,9 @@ const gerarListaDeArquivos = async (diretorio) => {
 const gerarSectionHTML = async (titulo, diretorio) => {
   const listaDeArquivos = await gerarListaDeArquivos(diretorio);
   return `
-    <section>
-        <h2>${titulo}</h2>
-        <ul id="aulas-${titulo.toLowerCase().replace(/\s+/g, '-')}" >
+    <section class="mb-8 bg-white rounded-lg shadow p-6">
+        <h2 class="text-2xl font-semibold mb-4">${titulo}</h2>
+        <ul id="aulas-${titulo.toLowerCase().replace(/\s+/g, '-')}" class="list-disc pl-5">
         ${listaDeArquivos}
         </ul>
     </section>
@@ -44,11 +44,13 @@ const gerarTemplateHTML = async (sections) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADS</title>
-    <link href="./style.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-<h1>Aulas</h1>
+<body class="bg-gray-100 min-h-screen">
+  <div class="container mx-auto py-10">
+    <h1 class="text-4xl font-bold mb-10 text-center text-gray-800">Aulas</h1>
     ${sectionsHTML.join('\n')}
+  </div>
 </body>
 </html>`;
 
@@ -61,11 +63,10 @@ const gerarTemplateHTML = async (sections) => {
 
 // Exemplo de uso
 const sections = [
-  { titulo: 'Desenvolvimento Para Internet(5º)', diretorio: './web/aulas' },
-  { titulo: 'Desenvolvimento Desktop (5°)', diretorio: './desktop/aulas' },
-  { titulo: 'Introdução à Análise e Projeto de Software (3°)', diretorio: './analise-projeto/aulas' },
-  { titulo: 'INOVAÇÃO, TECNOLOGIA E FUTURISMO (2°)', diretorio: './inovacao-futurismo/aulas' },
-  { titulo: 'Sistemas de Informação (PG) ', diretorio: './sistemas/aulas' },
+  { titulo: 'Desenvolvimento Para Internet(6º)', diretorio: './frameworks/aulas' },
+  // { titulo: 'Introdução à Análise e Projeto de Software (3°)', diretorio: './analise-projeto/aulas' },
+  // { titulo: 'INOVAÇÃO, TECNOLOGIA E FUTURISMO (2°)', diretorio: './inovacao-futurismo/aulas' },
+  // { titulo: 'Sistemas de Informação (PG) ', diretorio: './sistemas/aulas' },
 ];
 
 gerarTemplateHTML(sections);
