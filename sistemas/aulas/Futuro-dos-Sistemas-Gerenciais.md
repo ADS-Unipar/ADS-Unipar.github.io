@@ -42,7 +42,8 @@ A **IA** e o **ML** estão transformando a análise, otimização e execução d
     * **Impacto**: Processos mais ágeis, eficientes e adaptáveis sem intervenção humana constante.
 * **Análise Preditiva para Decisões**:
     * IA prevê cenários futuros: risco de churn de clientes, falhas em equipamentos, demandas de mercado.
-    * **Impacto**: **Planejamento proativo**, prevenção de problemas e decisões baseadas em dados robustos.
+---
+* **Impacto**: **Planejamento proativo**, prevenção de problemas e decisões baseadas em dados robustos.
 * **Personalização em Massa**:
     * Sistemas de IA analisam comportamento para personalizar experiências (ofertas, atendimento).
     * **Impacto**: Otimização dos processos de marketing, vendas e relacionamento com o cliente.
@@ -57,6 +58,7 @@ A **IA** e o **ML** estão transformando a análise, otimização e execução d
     * RPA executa preenchimento de formulários, extração de dados, conciliações financeiras.
     * Mais rápido, sem erros.
     * **Impacto**: Colaboradores focam em análises, resolução de problemas complexos e relacionamento.
+---
 * **Agilidade e Redução de Erros**:
     * Processos que levavam horas/dias são feitos em minutos com alta precisão.
     * Crucial para processos de *back-office* (contabilidade, RH, atendimento).
@@ -74,6 +76,7 @@ Plataformas visuais que permitem criar aplicativos e automações com **pouca ou
 * **Capacitação do "Cidadão Desenvolvedor"**:
     * **Você**, gestor de processos, poderá criar suas próprias ferramentas, *dashboards* ou automatizar pequenas tarefas.
     * **Impacto**: Reduz dependência da TI, acelera a inovação em seu próprio departamento.
+---
 * **Agilidade na Implementação de Melhorias**:
     * Prototipar e implementar melhorias de processos rapidamente.
     * Testar e ajustar em tempo real.
