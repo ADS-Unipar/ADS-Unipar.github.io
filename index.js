@@ -65,8 +65,8 @@ const gerarTemplateHTML = async (sections) => {
 const sections = [
   { titulo: 'FRAMEWORKS DE DESENVOLVIMENTO (6º)', diretorio: './frameworks/aulas' },
   { titulo: 'Desenvolvimento Front End (4°)', diretorio: './frontend2/aulas' },
-  // { titulo: 'INOVAÇÃO, TECNOLOGIA E FUTURISMO (2°)', diretorio: './inovacao-futurismo/aulas' },
-  // { titulo: 'Sistemas de Informação (PG) ', diretorio: './sistemas/aulas' },
+  { titulo: 'TESTE DE SOFTWARE (6°)', diretorio: './teste/aulas' },
+  { titulo: 'Design Frontend (2°) ', diretorio: './frontend/aulas' },
 ];
 
 gerarTemplateHTML(sections);
