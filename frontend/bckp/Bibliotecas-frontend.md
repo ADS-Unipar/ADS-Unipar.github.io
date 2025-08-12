@@ -85,6 +85,7 @@ footer: 'Bibliotecas Frontend Populares'
 ---
 
 # Comparação entre Bibliotecas
+---
 
 | Biblioteca   | Performance | Tamanho do Bundle | Facilidade de Aprendizado | Comunidade  | Casos de Uso               |
 |--------------|-------------|-------------------|---------------------------|-------------|----------------------------|
