@@ -92,6 +92,9 @@ footer: 'Bibliotecas Frontend Populares'
 | **React**    | Alta        | Médio             | Moderada                   | Muito Grande| SPAs, Dashboards            |
 | **Vue.js**   | Alta        | Pequeno           | Fácil                      | Grande      | SPAs, Websites Dinâmicos    |
 | **Angular**  | Moderada    | Grande            | Difícil                    | Grande      | Aplicações Corporativas     |
+---
+| Biblioteca   | Performance | Tamanho do Bundle | Facilidade de Aprendizado | Comunidade  | Casos de Uso               |
+|--------------|-------------|-------------------|---------------------------|-------------|----------------------------|
 | **Svelte**   | Muito Alta  | Muito Pequeno     | Moderada                   | Crescendo   | Aplicações de Alta Performance |
 | **Alpine.js**| Alta        | Muito Pequeno     | Muito Fácil                | Pequena     | Páginas Simples             |
 
