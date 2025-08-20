@@ -241,7 +241,7 @@ test('deve retornar zero para todos os campos se a lista de itens estiver vazia'
 -----
 
 ### **Bora codar**
-façam un fork do repositório a baixo 
+façam um fork do repositório a baixo 
 https://github.com/ADS-Unipar/desafio-tdd
 
 -----
