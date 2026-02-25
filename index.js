@@ -65,6 +65,9 @@ const gerarTemplateHTML = async (sections) => {
 const sections = [
   { titulo: 'BANCO DE DADOS E SQL (3º) ', diretorio: './banco-de-dados/aulas' },
   { titulo: 'DESENVOLVIMENTO MOBILE (5º) ', diretorio: './mobile/aulas' },
+  { titulo: 'DEVOPS (5º) ', diretorio: './devops/aulas' },
+  { titulo: 'FRAMEWORKS (5º) ', diretorio: './frameworks/aulas' },
+  
   // { titulo: 'Desenvolvimento FrontEnd (4°)', diretorio: './frontend2/aulas' },
   // { titulo: 'TESTE DE SOFTWARE (6°)', diretorio: './teste/aulas' },
   // { titulo: 'Design Frontend (2°) ', diretorio: './frontend/aulas' },
