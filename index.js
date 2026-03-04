@@ -64,6 +64,7 @@ const gerarTemplateHTML = async (sections) => {
 // Exemplo de uso
 const sections = [
   { titulo: 'BANCO DE DADOS E SQL (3º) ', diretorio: './banco-de-dados/aulas' },
+  { titulo: 'ANÁLISE E PROJETOS DE SOFTWARE (3º) ', diretorio: './analise-projeto/aulas' },
   { titulo: 'DESENVOLVIMENTO MOBILE (5º) ', diretorio: './mobile/aulas' },
   { titulo: 'DEVOPS (5º) ', diretorio: './devops/aulas' },
   { titulo: 'FRAMEWORKS (5º) ', diretorio: './frameworks/aulas' },
