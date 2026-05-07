@@ -8,7 +8,7 @@ paginate: true
 ## Para quem está começando (Ensino Médio)
 
 ---
-![bg left](IMG_20260125_191113.jpg)
+![bg left h:100%](ael.jpeg)
 
 # 👋 Quem ta falando?
 
