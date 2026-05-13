@@ -183,6 +183,13 @@ Microservices são uma escolha poderosa para:
 ---
 
 ## Monolítico vs. Microservices: Resumo Comparativo
+---
+
+<style scoped>
+* {
+  font-size: 0.95em; /* 80% do tamanho normal */
+}
+</style>
 
 | Característica        | Monolítico                                | Microservices                                   |
 | :-------------------- | :---------------------------------------- | :---------------------------------------------- |
