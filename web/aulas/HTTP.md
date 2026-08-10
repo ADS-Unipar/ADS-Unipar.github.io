@@ -272,6 +272,110 @@ app.listen(3000, () => console.log('Servidor rodando na porta 3000'));
 
 ---
 
+## **Parâmetros no Express**
+
+No Express, os dados da requisição podem chegar por diferentes tipos de parâmetros.
+
+---
+
+### **1. Parâmetros de Rota (`req.params`)**
+
+São valores dinâmicos definidos na própria URL.
+
+```javascript
+app.get('/usuarios/:id', (req, res) => {
+  const id = req.params.id;
+  res.status(200).json({ usuarioId: id });
+});
+```
+
+Exemplo de chamada: `GET /usuarios/42`
+
+---
+
+### **2. Query Params (`req.query`)**
+
+São filtros/opções enviados após `?` na URL.
+
+```javascript
+app.get('/produtos', (req, res) => {
+  const categoria = req.query.categoria;
+  const pagina = req.query.pagina;
+
+  res.status(200).json({ categoria, pagina });
+});
+```
+
+Exemplo de chamada: `GET /produtos?categoria=livros&pagina=2`
+
+---
+
+### **3. Dados no Corpo (`req.body`)**
+
+Muito usado em `POST`, `PUT` e `PATCH` para enviar dados em JSON.
+
+```javascript
+app.use(express.json());
+
+app.post('/usuarios', (req, res) => {
+  const dadosUsuario = req.body;
+  res.status(201).json({ criado: true, dados: dadosUsuario });
+});
+```
+
+---
+
+## **Request e Response no Express**
+
+No callback de uma rota, o Express sempre entrega dois objetos principais:
+
+- **`req` (request)**: representa tudo o que chegou do cliente.
+- **`res` (response)**: representa o que será enviado de volta ao cliente.
+
+---
+
+### **Principais dados em `req`**
+
+- `req.params`: parâmetros de rota.
+- `req.query`: parâmetros da URL.
+- `req.body`: corpo da requisição.
+- `req.headers`: cabeçalhos HTTP.
+- `req.method`: método HTTP (`GET`, `POST`, etc.).
+- `req.path`: caminho da rota acessada.
+
+---
+
+### **Principais métodos de `res`**
+
+- `res.status(codigo)`: define o status HTTP da resposta.
+- `res.json(objeto)`: envia resposta em JSON.
+- `res.send(conteudo)`: envia texto, HTML ou outro conteúdo.
+- `res.set(cabecalho, valor)`: define cabeçalhos da resposta.
+- `res.redirect(url)`: redireciona para outra URL.
+
+---
+
+### **Exemplo Completo (`req` + `res`)**
+
+```javascript
+app.patch('/usuarios/:id', (req, res) => {
+  const id = req.params.id;
+  const email = req.body.email;
+
+  if (!email) {
+    return res.status(400).json({ error: 'Email obrigatorio' });
+  }
+
+  return res.status(200).json({
+    message: 'Usuario atualizado com sucesso',
+    usuarioId: id,
+    novoEmail: email
+  });
+});
+```
+
+---
+
 ## **Conclusão**
 
 - A importância dos códigos HTTP para a web.
