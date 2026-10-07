@@ -2,35 +2,7 @@
 marp: true
 theme: default
 paginate: true
-backgroundColor: #1a1a2e
-color: #eee
-style: |
-  section {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  h1 {
-    color: #00d4ff;
-    border-bottom: 3px solid #00d4ff;
-    padding-bottom: 10px;
-  }
-  h2 {
-    color: #00d4ff;
-  }
-  strong {
-    color: #00d4ff;
-  }
-  ul {
-    font-size: 0.9em;
-  }
-  table {
-    font-size: 0.85em;
-  }
-  blockquote {
-    border-left: 4px solid #00d4ff;
-    padding-left: 15px;
-    font-style: italic;
-    color: #ccc;
-  }
+
 ---
 
 <!-- _class: lead -->
@@ -38,17 +10,6 @@ style: |
 # Gestão de Projetos
 ## Aula 2 — PMBOK® e Business Model Canvas
  
-
----
-
-# 📋 Roteiro da Aula
-
-| Tempo | Conteúdo |
-|-------|----------|
-| 0-15 min | O Guia PMBOK® |
-| 15-25 min | Princípios e Componentes |
-| 25-40 min | Business Model Canvas |
-| 40-50 min | Exercício Prático |
 
 ---
 
@@ -62,6 +23,7 @@ Desenvolvido pelo **PMI** (Project Management Institute):
 - Descreve **processos, ferramentas e técnicas** de melhores práticas
 - Abrange desde o início até o encerramento do projeto
 
+---
 ### 📌 Áreas cobertas:
 - Definição de escopo
 - Planejamento
@@ -107,6 +69,8 @@ Alcançar o **sucesso do projeto** através do domínio técnico e metodológico
 4. 🔍 Monitoramento e Controle
 5. ✅ Encerramento
 
+---
+
 **10 Áreas de Conhecimento:**
 - Integração, Escopo, Cronograma, Custo, Qualidade
 - Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas
@@ -123,6 +87,7 @@ Alcançar o **sucesso do projeto** através do domínio técnico e metodológico
 | Monitoramento | 12 processos | Controle e acompanhamento |
 | Encerramento | 1 processo | Finalização formal |
 
+---
 ### 📌 A numeração segue o padrão:
 **X.Y** onde X = capítulo (área) e Y = sequência do processo
 
@@ -151,7 +116,8 @@ Estrutura conceitual que descreve as fases desde o início até a conclusão:
 ### 2. 📋 Organização e Preparação
 - Planejamento, cronograma, análise de custos
 - Monitoramento e controle começa aqui
-
+---
+# 🔄 Fases Mínimas do Projeto
 ### 3. ⚡ Execução do Trabalho
 - Consome maior parte do tempo e recursos
 - Pode ser intercalada com planejamento
@@ -177,7 +143,7 @@ Framework desenvolvido por **Alexander Osterwalder** e **Yves Pigneur**:
 
 ---
 
-# 📊 Os 9 Blocos do BMC
+### 📊 Os 9 Blocos do BMC
 
 | Bloco | Pergunta |
 |-------|----------|
@@ -204,19 +170,34 @@ Após elaborar o BMC, valide com estas perguntas:
 5. As **receitas** são suficientes para cobrir os gastos planejados?
 
 ---
+![bg h:100% ](canvas.webp)
 
-# 💡 Exercício Prático (10 min)
+---
 
-Em grupos, criem um **Business Model Canvas** para:
+# 💡 Exemplo Prático — BMC
 
-> *Um aplicativo de delivery de comida para estudantes universitários*
+### Aplicativo de delivery de comida para estudantes universitários
 
-### Preencham os 9 blocos:
-- Quem são os parceiros?
-- Quais atividades são críticas?
-- Qual a proposta de valor?
-- Quem são os clientes?
-- Como gerar receita?
+| Bloco | Resposta |
+|-------|----------|
+| **Parceiros-chave** | Restaurantes próximos às universidades, motoboys/entregadores, gateways de pagamento (Pix, cartão) |
+| **Atividades-chave** | Desenvolvimento do app, gestão de pedidos, logística de entrega, promoções para estudantes |
+| **Recursos-chave** | Equipe de TI, servidores em nuvem, frota de entregadores, contratos com restaurantes |
+---
+# 💡 Exemplo Prático — BMC
+
+| Bloco | Resposta |
+|-------|----------|
+| **Proposta de Valor** | Refeições acessíveis com desconto estudantil, entregas rápidas no campus e pagamento facilitado |
+| **Relacionamento** | Chat de suporte no app, programa de fidelidade, avaliações e feedback dos usuários |
+| **Canais** | Aplicativo móvel (Android/iOS), redes sociais universitárias, panfletos no campus |
+| **Segmentos de Clientes** | Estudantes universitários (graduação e pós), restaurantes e lanchonetes universitárias |
+---
+# 💡 Exemplo Prático — BMC
+| Bloco | Resposta |
+|-------|----------|
+| **Estrutura de Custos** | Desenvolvimento do app, marketing, pagamento de entregadores, infraestrutura de servidores |
+| **Fontes de Receita** | Comissão por pedido (15-20%), taxa de entrega, assinatura premium (entregas grátis), anúncios de restaurantes |
 
 ---
 
