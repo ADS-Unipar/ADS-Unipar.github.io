@@ -1,0 +1,22 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "CRUD de To-Do List com Node.js + Express (Back-End) e HTML/CSS/JS (Front-End) - Unidade 1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "crud",
+    "todo-list",
+    "back-end",
+    "front-end"
+  ],
+  "author": "ADS Unipar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

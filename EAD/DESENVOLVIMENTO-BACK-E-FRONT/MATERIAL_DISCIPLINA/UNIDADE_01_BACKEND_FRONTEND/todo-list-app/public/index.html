@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- ============================================================
+     FRONT-END — Página da To-Do List
+     Unidade 1 - Desenvolvimento de Software (Back-End e Front-End)
+     ============================================================
+     Este arquivo é a INTERFACE visual da aplicação (o que o
+     usuário vê no navegador). Ele é servido pelo Back-End
+     através do middleware express.static('public').
+     ============================================================ -->
+<html lang="pt-BR">
+
+<head>
+  <!-- Declara a codificação de caracteres (acentos em português) -->
+  <meta charset="UTF-8">
+
+  <!-- Faz a página se adaptar a telas de celular e desktop -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Título que aparece na aba do navegador -->
+  <title>To-Do List | Unidade 1 - Back-End + Front-End</title>
+
+  <!-- Importa o arquivo de estilos (CSS) do Front-End -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Container principal que centraliza o conteúdo na tela -->
+  <main class="container">
+
+    <!-- Cabeçalho da aplicação -->
+    <header>
+      <h1>📝 Minha To-Do List</h1>
+      <p>CRUD completo com Node.js + Express (Back-End) e HTML/CSS/JS (Front-End)</p>
+    </header>
+
+    <!--
+      FORMULÁRIO DE CADASTRO / EDIÇÃO
+      O mesmo formulário serve para criar E editar tarefas.
+      O JavaScript (app.js) decide qual ação tomar:
+        - se editandoId == null -> envia POST (criar)
+        - se editandoId != null -> envia PUT (editar)
+    -->
+    <form id="form-tarefa">
+      <!-- Campo de texto onde o usuário digita o título da tarefa -->
+      <input
+        type="text"
+        id="input-titulo"
+        name="titulo"
+        placeholder="Digite uma tarefa... (ex.: Estudar Express)"
+        autocomplete="off"
+        required>
+
+      <!-- Botão de envio: o texto muda entre "Adicionar" e "Atualizar"
+           dependendo do modo (criar/editar) controlado pelo app.js -->
+      <button type="submit" id="btn-enviar">Adicionar</button>
+
+      <!-- Botão de cancelar edição: aparece apenas quando estamos
+           editando uma tarefa existente -->
+      <button type="button" id="btn-cancelar" class="btn-cancelar" hidden>Cancelar</button>
+    </form>
+
+    <!--
+      LISTA DE TAREFAS
+      A lista começa vazia e é preenchida dinamicamente pelo
+      app.js, que busca os dados no Back-End com fetch().
+    -->
+    <section class="lista-tarefas">
+      <h2>Tarefas cadastradas</h2>
+
+      <!-- Mensagem exibida enquanto a lista está vazia -->
+      <p id="lista-vazia" class="lista-vazia">Nenhuma tarefa cadastrada ainda. Adicione a primeira! 🚀</p>
+
+      <!-- Lista (<ul>) que recebe os itens (<li>) criados pelo JavaScript -->
+      <ul id="lista-tarefas"></ul>
+    </section>
+
+    <!--
+      ÁREA DE MENSAGENS (feedback para o usuário)
+      Mostra avisos de sucesso (verde) ou erro (vermelho).
+    -->
+    <div id="mensagem" class="mensagem" hidden></div>
+
+  </main>
+
+  <!-- Importa o JavaScript do Front-End.
+       A tag fica no FINAL do body para garantir que todo o HTML
+       já tenha sido carregado antes do script tentar acessar os elementos. -->
+  <script src="app.js"></script>
+</body>
+
+</html>

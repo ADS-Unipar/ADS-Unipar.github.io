@@ -1,0 +1,22 @@
+{
+  "name": "todo-list-app-sem-ajax",
+  "version": "1.0.0",
+  "description": "To-Do List clássica SEM AJAX/fetch: formulários HTML tradicionais com recarga de página e HTML gerado no servidor (Node.js + Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "crud",
+    "todo-list",
+    "server-side-rendering",
+    "formularios-classicos"
+  ],
+  "author": "ADS Unipar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
