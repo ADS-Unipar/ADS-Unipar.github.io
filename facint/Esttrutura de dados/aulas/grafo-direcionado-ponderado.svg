@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" width="250" height="125" role="img" aria-label="Aresta direcionada de A para B com peso 5">
+  <path d="M78 62H165" stroke="#2c4f86" stroke-width="4"/>
+  <path d="M165 54L180 62L165 70" fill="none" stroke="#2c4f86" stroke-width="4"/>
+  <circle cx="60" cy="62" r="25" fill="#092753"/><circle cx="195" cy="62" r="25" fill="#092753"/>
+  <g fill="#fff" font-family="Arial" font-size="18" text-anchor="middle" dominant-baseline="middle"><text x="60" y="62">A</text><text x="195" y="62">B</text></g>
+  <text x="125" y="45" fill="#092753" font-family="Arial" font-size="17" text-anchor="middle">5</text>
+</svg>
