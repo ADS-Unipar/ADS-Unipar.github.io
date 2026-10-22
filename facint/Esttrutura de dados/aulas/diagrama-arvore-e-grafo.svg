@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 210" width="440" height="210" role="img" aria-label="Comparação entre árvore hierárquica e grafo conectado">
+  <g stroke="#092753" stroke-width="3" fill="none">
+    <path d="M100 45L55 110M100 45L145 110M55 110L35 175M55 110L80 175"/>
+    <path d="M265 60L330 110M330 110L385 65M330 110L380 170M265 60L245 155M245 155L380 170"/>
+  </g>
+  <g fill="#092753">
+    <circle cx="100" cy="45" r="20"/><circle cx="55" cy="110" r="18"/><circle cx="145" cy="110" r="18"/>
+    <circle cx="35" cy="175" r="16"/><circle cx="80" cy="175" r="16"/>
+    <circle cx="265" cy="60" r="18"/><circle cx="330" cy="110" r="18"/><circle cx="385" cy="65" r="18"/>
+    <circle cx="380" cy="170" r="18"/><circle cx="245" cy="155" r="18"/>
+  </g>
+  <g fill="#fff" font-family="Arial" font-size="15" text-anchor="middle" dominant-baseline="middle">
+    <text x="100" y="45">A</text><text x="55" y="110">B</text><text x="145" y="110">C</text><text x="35" y="175">D</text><text x="80" y="175">E</text>
+    <text x="265" y="60">A</text><text x="330" y="110">B</text><text x="385" y="65">C</text><text x="380" y="170">D</text><text x="245" y="155">E</text>
+  </g>
+</svg>

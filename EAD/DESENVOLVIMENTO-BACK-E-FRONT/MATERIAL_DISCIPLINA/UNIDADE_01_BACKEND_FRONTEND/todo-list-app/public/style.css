@@ -1,0 +1,272 @@
+/* ============================================================
+   FRONT-END — Estilos da To-Do List
+   Unidade 1 - Desenvolvimento de Software (Back-End e Front-End)
+   ============================================================
+   Arquivo CSS: responsável pela APARÊNCIA da aplicação
+   (cores, espaçamentos, tipografia e responsividade).
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   RESET BÁSICO
+   Remove margens/paddings padrão do navegador e define
+   box-sizing para facilitar o cálculo de larguras.
+   ------------------------------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página (fundo e fonte) */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* fonte principal */
+  background: linear-gradient(135deg, #C22820, #5C2034);        /* degradê vermelho (identidade Unipar) */
+  min-height: 100vh;           /* ocupa pelo menos toda a altura da tela */
+  display: flex;               /* layout flexível */
+  align-items: center;         /* centraliza verticalmente */
+  justify-content: center;     /* centraliza horizontalmente */
+  padding: 20px;               /* respiro nas bordas em telas pequenas */
+}
+
+/* ------------------------------------------------------------
+   CONTAINER PRINCIPAL
+   Cartão branco centralizado onde fica todo o conteúdo.
+   ------------------------------------------------------------ */
+.container {
+  background: #ffffff;                    /* fundo branco do cartão */
+  width: 100%;                            /* ocupa a largura disponível */
+  max-width: 620px;                       /* mas não passa de 620px */
+  border-radius: 16px;                    /* cantos arredondados */
+  padding: 32px;                          /* espaçamento interno */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); /* sombra para "levantar" o cartão */
+}
+
+/* Cabeçalho (título e subtítulo) */
+header {
+  text-align: center;        /* centraliza o texto */
+  margin-bottom: 24px;       /* distância abaixo do cabeçalho */
+}
+
+/* Título principal */
+header h1 {
+  color: #5C2034;            /* vinho (cor da identidade Unipar) */
+  font-size: 2rem;           /* tamanho do texto */
+  margin-bottom: 8px;        /* espaço entre título e subtítulo */
+}
+
+/* Subtítulo/descrição */
+header p {
+  color: #666666;            /* cinza para texto secundário */
+  font-size: 0.95rem;
+}
+
+/* ------------------------------------------------------------
+   FORMULÁRIO
+   Linha com o campo de texto e os botões lado a lado.
+   ------------------------------------------------------------ */
+form {
+  display: flex;             /* coloca os itens em linha */
+  gap: 10px;                 /* espaço entre campo e botões */
+  margin-bottom: 28px;       /* distância abaixo do formulário */
+  flex-wrap: wrap;           /* quebra linha em telas pequenas */
+}
+
+/* Campo de texto da tarefa */
+form input {
+  flex: 1;                   /* cresce para ocupar o espaço livre */
+  min-width: 200px;          /* largura mínima antes de quebrar linha */
+  padding: 12px 16px;        /* espaçamento interno */
+  border: 2px solid #e0e0e0; /* borda cinza clara */
+  border-radius: 10px;       /* cantos arredondados */
+  font-size: 1rem;           /* tamanho do texto digitado */
+  outline: none;             /* remove o contorno padrão do navegador */
+  transition: border-color 0.2s; /* animação suave ao focar */
+}
+
+/* Quando o campo está focado (clicado), a borda fica vinho */
+form input:focus {
+  border-color: #C22820;
+}
+
+/* ------------------------------------------------------------
+   BOTÕES
+   ------------------------------------------------------------ */
+/* Botão principal (Adicionar / Atualizar) */
+button {
+  padding: 12px 22px;
+  background: #C22820;       /* vermelho Unipar */
+  color: #ffffff;            /* texto branco */
+  border: none;              /* remove borda padrão */
+  border-radius: 10px;       /* cantos arredondados */
+  font-size: 1rem;
+  font-weight: 600;          /* texto em negrito */
+  cursor: pointer;           /* cursor de "mão" ao passar o mouse */
+  transition: background 0.2s, transform 0.1s; /* animações */
+}
+
+/* Efeito ao passar o mouse: escurece o botão */
+button:hover {
+  background: #a01f19;
+}
+
+/* Efeito ao clicar: o botão "afunda" um pouco */
+button:active {
+  transform: scale(0.97);
+}
+
+/* Botão "Cancelar" (usado na edição) */
+.btn-cancelar {
+  background: #888888;       /* cinza para indicar ação secundária */
+}
+
+.btn-cancelar:hover {
+  background: #666666;
+}
+
+/* ------------------------------------------------------------
+   LISTA DE TAREFAS
+   ------------------------------------------------------------ */
+.lista-tarefas h2 {
+  color: #5C2034;
+  font-size: 1.2rem;
+  margin-bottom: 14px;
+  border-bottom: 2px solid #f0f0f0; /* linha divisória abaixo do título */
+  padding-bottom: 8px;
+}
+
+/* Mensagem exibida quando não há tarefas */
+.lista-vazia {
+  color: #999999;
+  text-align: center;
+  padding: 20px 0;
+  font-style: italic;        /* texto em itálico */
+}
+
+/* Lista sem marcadores padrão */
+ul {
+  list-style: none;          /* remove as bolinhas da lista */
+}
+
+/* Cada item da lista (uma tarefa) */
+li {
+  display: flex;             /* título e botões lado a lado */
+  align-items: center;       /* alinha verticalmente */
+  gap: 12px;                 /* espaço entre os elementos */
+  padding: 12px 14px;
+  background: #fafafa;       /* fundo cinza bem claro */
+  border-radius: 10px;       /* cantos arredondados */
+  margin-bottom: 10px;       /* espaço entre as tarefas */
+  border-left: 4px solid #C22820; /* barra vermelha à esquerda */
+  transition: background 0.2s;
+}
+
+/* Efeito ao passar o mouse sobre a tarefa */
+li:hover {
+  background: #f2f2f2;
+}
+
+/* Título da tarefa dentro do item */
+li .titulo {
+  flex: 1;                   /* ocupa o espaço disponível */
+  color: #333333;
+  word-break: break-word;    /* quebra palavras longas em telas pequenas */
+}
+
+/* Estilo da tarefa CONCLUÍDA (checkbox marcada) */
+li.concluida .titulo {
+  text-decoration: line-through; /* texto riscado */
+  color: #999999;                /* texto esmaecido */
+}
+
+/* Caixa de seleção (marcar tarefa como concluída) */
+li input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #C22820;     /* cor do "check" (padrão do navegador) */
+}
+
+/* Botões de ação (Editar / Excluir) dentro de cada item */
+li button {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+/* Botão "Editar" (azul para diferenciar do "Excluir") */
+.btn-editar {
+  background: #2f6fb2;
+}
+
+.btn-editar:hover {
+  background: #245a94;
+}
+
+/* Botão "Excluir" (vermelho escuro) */
+.btn-excluir {
+  background: #b3261e;
+}
+
+.btn-excluir:hover {
+  background: #8c1d18;
+}
+
+/* ------------------------------------------------------------
+   MENSAGEM DE FEEDBACK (sucesso / erro)
+   ------------------------------------------------------------ */
+.mensagem {
+  margin-top: 20px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  animation: aparecer 0.3s ease; /* animação de entrada */
+}
+
+/* Variação da mensagem de SUCESSO (verde) */
+.mensagem.sucesso {
+  background: #e6f4ea;
+  color: #1e7e34;
+  border: 1px solid #b7e1c0;
+}
+
+/* Variação da mensagem de ERRO (vermelho) */
+.mensagem.erro {
+  background: #fdecea;
+  color: #b3261e;
+  border: 1px solid #f5c6c2;
+}
+
+/* ------------------------------------------------------------
+   ANIMAÇÃO
+   Faz a mensagem aparecer suavemente (de baixo para cima).
+   ------------------------------------------------------------ */
+@keyframes aparecer {
+  from {
+    opacity: 0;              /* começa invisível */
+    transform: translateY(8px); /* começa 8px abaixo */
+  }
+  to {
+    opacity: 1;              /* termina visível */
+    transform: translateY(0);  /* termina na posição normal */
+  }
+}
+
+/* ------------------------------------------------------------
+   RESPONSIVIDADE
+   Ajustes para telas pequenas (celulares).
+   ------------------------------------------------------------ */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;           /* menos espaçamento interno */
+  }
+
+  header h1 {
+    font-size: 1.5rem;       /* título menor */
+  }
+
+  /* Botões do formulário ocupam toda a largura em telas pequenas */
+  form button {
+    flex: 1;
+  }
+}

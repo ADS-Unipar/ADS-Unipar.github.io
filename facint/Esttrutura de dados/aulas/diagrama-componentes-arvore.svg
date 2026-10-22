@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" width="620" height="260" role="img" aria-label="Árvore com raiz, nós internos e folhas">
+  <g stroke="#2c4f86" stroke-width="4" fill="none">
+    <path d="M310 55L185 125M310 55L435 125M185 145L110 215M185 145L260 215M435 145L390 215M435 145L510 215"/>
+  </g>
+  <g fill="#092753">
+    <circle cx="310" cy="45" r="27"/><circle cx="185" cy="135" r="25"/><circle cx="435" cy="135" r="25"/>
+    <circle cx="110" cy="225" r="23"/><circle cx="260" cy="225" r="23"/><circle cx="390" cy="225" r="23"/><circle cx="510" cy="225" r="23"/>
+  </g>
+  <g fill="#fff" font-family="Arial" font-size="18" text-anchor="middle" dominant-baseline="middle">
+    <text x="310" y="45">A</text><text x="185" y="135">B</text><text x="435" y="135">C</text>
+    <text x="110" y="225">D</text><text x="260" y="225">E</text><text x="390" y="225">F</text><text x="510" y="225">G</text>
+  </g>
+</svg>

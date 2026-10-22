@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#mapa {
+    height: 400px; /* Essencial! */
+    width: 80%;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

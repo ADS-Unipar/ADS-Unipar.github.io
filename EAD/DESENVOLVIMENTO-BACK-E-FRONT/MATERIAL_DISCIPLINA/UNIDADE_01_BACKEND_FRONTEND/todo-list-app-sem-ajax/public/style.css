@@ -1,0 +1,292 @@
+/* ============================================================
+   FRONT-END — Estilos da To-Do List CLÁSSICA
+   Unidade 1 - Desenvolvimento de Software (Back-End e Front-End)
+   ============================================================
+   Este é o ÚNICO arquivo do Front-End desta aplicação!
+   Não existe JavaScript aqui: toda a lógica fica no SERVIDOR,
+   que envia o HTML pronto e o navegador apenas exibe a página
+   e recarrega quando o usuário envia um formulário.
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   RESET BÁSICO
+   ------------------------------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página: fundo em degradê e cartão centralizado */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #C22820, #5C2034); /* cores Unipar */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Cartão branco centralizado onde fica todo o conteúdo */
+.container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 680px;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* ------------------------------------------------------------
+   CABEÇALHO
+   ------------------------------------------------------------ */
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  color: #5C2034;      /* vinho da identidade Unipar */
+  font-size: 1.9rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+/* ------------------------------------------------------------
+   FORMULÁRIO PRINCIPAL (cadastrar / editar)
+   ------------------------------------------------------------ */
+form {
+  display: flex;       /* campo e botões lado a lado */
+  gap: 10px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;     /* quebra linha em telas pequenas */
+}
+
+/* Campo de texto da tarefa */
+form input[type="text"] {
+  flex: 1;
+  min-width: 200px;
+  padding: 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+/* Borda destacada quando o campo está focado */
+form input[type="text"]:focus {
+  border-color: #C22820;
+}
+
+/* ------------------------------------------------------------
+   BOTÕES
+   ------------------------------------------------------------ */
+button {
+  padding: 12px 22px;
+  background: #C22820;   /* vermelho Unipar */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background: #a01f19;
+}
+
+button:active {
+  transform: scale(0.97); /* o botão "afunda" ao clicar */
+}
+
+/* Botão "Cancelar" — na versão clássica é um LINK (<a>),
+   pois basta voltar à página inicial, sem enviar formulário */
+a.btn-cancelar {
+  padding: 12px 22px;
+  background: #888888;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;  /* remove o sublinhado do link */
+  display: inline-block;
+}
+
+a.btn-cancelar:hover {
+  background: #666666;
+}
+
+/* ------------------------------------------------------------
+   LISTA DE TAREFAS
+   ------------------------------------------------------------ */
+.lista-tarefas h2 {
+  color: #5C2034;
+  font-size: 1.2rem;
+  margin-bottom: 14px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+
+/* Mensagem exibida quando a lista está vazia */
+.lista-vazia {
+  color: #999999;
+  text-align: center;
+  padding: 20px 0;
+  font-style: italic;
+}
+
+/* Lista sem marcadores padrão */
+ul {
+  list-style: none;
+}
+
+/* Cada item da lista (uma tarefa) */
+li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #fafafa;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #C22820;
+  transition: background 0.2s;
+}
+
+li:hover {
+  background: #f2f2f2;
+}
+
+/* Título da tarefa */
+li .titulo {
+  flex: 1;
+  color: #333333;
+  word-break: break-word;
+}
+
+/* Tarefa CONCLUÍDA: texto riscado e esmaecido */
+li.concluida .titulo {
+  text-decoration: line-through;
+  color: #999999;
+}
+
+/* ------------------------------------------------------------
+   FORMULÁRIOS DENTRO DA LISTA
+   Cada tarefa tem mini-formulários (concluir/excluir) que
+   ficam lado a lado com o título — por isso "form-inline".
+   ------------------------------------------------------------ */
+.form-inline {
+  margin: 0;          /* zera a margem do formulário principal */
+  display: flex;
+  gap: 6px;
+}
+
+/* Botão de marcar/desmarcar (parece uma caixa de seleção) */
+.btn-check {
+  padding: 4px 8px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.btn-check:hover {
+  background: #f0f0f0;
+}
+
+/* Botões de ação menores dentro da lista */
+li button,
+li a {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+/* Link "Editar" (estilizado como botão azul) */
+a.btn-editar {
+  background: #2f6fb2;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn-editar:hover {
+  background: #245a94;
+}
+
+/* Botão "Excluir" (vermelho escuro) */
+.btn-excluir {
+  background: #b3261e;
+}
+
+.btn-excluir:hover {
+  background: #8c1d18;
+}
+
+/* ------------------------------------------------------------
+   MENSAGENS DE FEEDBACK (sucesso / erro)
+   Na versão clássica, as mensagens vêm JÁ NO HTML da resposta
+   (ou pela URL ?msg=...), e não criadas por JavaScript.
+   ------------------------------------------------------------ */
+.mensagem {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.mensagem.sucesso {
+  background: #e6f4ea;
+  color: #1e7e34;
+  border: 1px solid #b7e1c0;
+}
+
+.mensagem.erro {
+  background: #fdecea;
+  color: #b3261e;
+  border: 1px solid #f5c6c2;
+}
+
+/* ------------------------------------------------------------
+   RODAPÉ
+   ------------------------------------------------------------ */
+footer {
+  margin-top: 24px;
+  text-align: center;
+  color: #999999;
+  font-size: 0.85rem;
+  border-top: 2px solid #f0f0f0;
+  padding-top: 12px;
+}
+
+/* ------------------------------------------------------------
+   RESPONSIVIDADE (telas pequenas / celulares)
+   ------------------------------------------------------------ */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  /* Em telas pequenas, cada tarefa empilha os elementos */
+  li {
+    flex-wrap: wrap;
+  }
+
+  form button {
+    flex: 1;
+  }
+}

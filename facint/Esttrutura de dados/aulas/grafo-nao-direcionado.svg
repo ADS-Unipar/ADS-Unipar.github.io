@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 125" width="250" height="125" role="img" aria-label="Aresta não direcionada entre A e B">
+  <path d="M75 62H175" stroke="#2c4f86" stroke-width="4"/>
+  <circle cx="60" cy="62" r="25" fill="#092753"/><circle cx="190" cy="62" r="25" fill="#092753"/>
+  <g fill="#fff" font-family="Arial" font-size="18" text-anchor="middle" dominant-baseline="middle"><text x="60" y="62">A</text><text x="190" y="62">B</text></g>
+</svg>
